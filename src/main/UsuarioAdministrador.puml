@@ -1,0 +1,13 @@
+@startuml
+:Administrador: as Admin
+
+Usuario <|-- Admin
+Usuario --(Iniciar Sesion)
+Usuario --(Recuperar Contraseña)
+Usuario --(Modificar Contrasea)
+Usuario --(Cerrar Sesion)
+
+Admin -- (Registrar Usuario)
+Admin -- (Instalar Programa)
+
+@enduml

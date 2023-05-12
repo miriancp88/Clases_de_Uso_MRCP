@@ -1,0 +1,13 @@
+@startuml
+actor Ciudadano
+actor "Ciudadano Extrangero"
+
+Ciudadano <|-- "Ciudadano Extrangero"
+
+Ciudadano -- (Registar Entrada)
+"Ciudadano Extrangero" -- (Tomar huellas)
+
+(Tomar huellas)<|..(Registar Entrada)
+
+
+@enduml
